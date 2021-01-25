@@ -1,0 +1,55 @@
+table
+{
+
+text-align: center;
+margin-left: 100px;
+margin-top: 150px;
+}
+body
+{
+	background-image: url(srce2.jpg);
+	margin: 0;
+	padding: 0;
+	   }
+th,td
+{
+	opacity: 0.9;
+	background-color:gray;
+}
+header
+{
+	opacity: 0.8;
+	color:white;
+	padding-top: 30px;
+	min-height: 70px;
+	border-bottom: 3px solid #e8491d;
+background-color:#35424a;
+}
+h1
+{
+	text-align: center;
+}
+
+th,td,text
+{
+    color:black;
+	font-family:sans-serif;
+	text-decoration: bold;
+}
+
+#nazad
+{
+margin-left: 600px;
+margin-top:80px;
+	text-align: center;
+	border: 2px solid black;
+	width: 120px;
+	height: 60px;
+	font-size: 20px;
+	opacity: 0.5;
+}
+#nazad:hover
+{
+	border-radius: 10px;
+	background-color: gray;
+}

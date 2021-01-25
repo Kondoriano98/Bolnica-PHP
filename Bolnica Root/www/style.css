@@ -1,0 +1,102 @@
+ body
+{
+	background-image: url(bolnica.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	  
+
+    margin:0;
+    padding: 0;
+}
+ 
+
+{
+	width: 80%; 
+	margin:auto;
+	overflow: hidden 
+}
+ .prijava{ 
+ 	text-align: center;
+ 	float: left;
+ 	margin-top:180px;
+ 	margin-bottom: 0px;
+ 	margin-left:250px;
+ 	margin-right: 0px;
+    padding:5px;
+	width:300px;
+	height:300px;
+    background: #737373;
+    border-radius: 12px;
+    opacity:0.6; 
+
+ }
+
+ .registracija	
+ {
+ 	text-align: center;
+  	float:right;
+ 	margin-top: 110px;
+ 	margin-bottom: 0px;
+ 	margin-left: 0px;
+ 	margin-right: 250px;
+ 	padding:5px;
+	width:300px;
+	height:450px;
+    background:#DEDEDE;
+    border-radius: 12px;
+    opacity: 0.6;
+ }
+
+
+ .button
+ {
+ 	border:2px solid black;
+ 	border-radius: 8px;
+ 
+ }
+
+ .registracija input:hover, .prijava input:hover
+ {
+ 	 background-color: grey;
+ 	 border-radius: 12px;
+ }
+
+.prijava:hover
+{
+	 
+}
+
+.hospital
+{
+	width: 60px;
+	height: 60px;
+margin-left:45px;
+margin-top: 300px;
+}
+
+#icon:hover
+ {
+ 	
+ 	animation: ikona 3000ms infinite;	
+ 	animation-timing-function: linear;
+ }
+
+ 	@keyframes ikona{
+ from{transform: rotateY(0deg);}
+ to{transform: rotateY(360deg);}
+}
+
+ #tekst:hover
+ {
+text-transform: uppercase;
+text-decoration: bold;
+color:gray;
+ }
+
+ header
+ {
+ 	background-color: red;
+ 	min-height: 80px;
+ 	   
+ 	border-bottom: 5px solid black;
+ }

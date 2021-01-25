@@ -1,0 +1,153 @@
+body
+{
+ margin: 0;
+ padding: 0;
+background-image: url(bolnica5.jpg); 
+background-repeat: no-repeat;]
+background-size: cover;
+}
+
+
+h1, h2
+{
+
+text-align: center;
+}
+
+
+header
+{
+	opacity: 0.5;
+	color:white;
+	padding-top: 30px;
+	min-height: 70px;
+	border-bottom: 3px solid #e8491d;
+background-color:#35424a;
+}
+ 
+
+
+.osnova
+ {
+   
+   	 width: 100%; 
+	margin:auto;
+	overflow: hidden;
+ }
+
+
+
+
+
+
+
+    .pretraga
+{
+	text-align: center;
+ 	float: left;
+ 	margin-top:100px;
+ 	margin-bottom: 0px;
+ 	margin-left:481px;
+ 	margin-right: 0px;
+    padding:5px;
+	width:300px;
+	height:300px;
+ 	background-color:#35424a;
+
+     opacity:0.5;
+    	 
+}	 
+
+
+ 
+
+
+ footer
+ {
+  	min-height: 70px;
+ 	opacity: 0.5;
+ 	border-top: 3px solid #e8491d;
+	color:white;
+	padding: 20px;
+	margin-top: 20px;
+	background-color:#35424a;
+	text-align: center;
+ }
+
+ .dugme
+ {
+ 	  	float: left;
+ 	 border:2px solid black;
+ 	width:150px;
+ }
+
+
+ .dugme:hover
+ {
+ 	opacity: 0.8;
+ 	border-radius: 8px;
+	  }
+
+	  .pretraga input, ,pretraga button
+	  {
+	  	 background-color:3red;
+	  	 opacity: 0.5;
+	  } 
+	  .odjava
+{
+		height: 50px;
+		width: 150px;
+		padding-left:20px;
+		padding-right: 20px;
+		border:2px solid black;	
+		 }
+
+.odjava:hover
+{
+
+	opacity: 0.8;
+	border-radius: 10px;
+
+}
+
+ 
+ .otpremanje
+ {
+ 		float: right;
+ 	 border:2px solid black;
+ 	width:150px;
+ }
+
+ .otpremanje:hover
+ {
+ 	border-radius: 10px;
+ 	background-color: gray;
+ }
+
+
+ .pretraga:hover
+ {
+ 	border-radius: 12px;
+ }
+
+ #unos, #pretraga_dugme
+ {
+ 	background-color:white;
+ }
+
+  #pretraga_dugme:hover
+ {
+ 	border-radius: 12px;
+ 	cursor: pointer;
+ 	background-color: gray;
+ }
+
+#tekst
+{
+	color: white;
+}
+#unos:hover
+{
+	border-radius: 12px;
+	background-color: gray;
+}
